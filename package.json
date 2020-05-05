@@ -1,7 +1,7 @@
 {
-  "name": "arha-scripts",
+  "name": "arha-script",
   "version": "0.9.0",
-  "description": "React component that converts script-strings to react components",
+  "description": "A react component that helps injecting javascript snippets to the dom",
   "main": "index.js",
   "scripts": {
     "test": "jest --config ./jest.config.json",
