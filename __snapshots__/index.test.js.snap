@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArhaScript-component renders with no props 1`] = `
+<ArhaScript
+  parseOpts={
+    Object {
+      "noscript": true,
+      "script": true,
+    }
+  }
+/>
+`;
