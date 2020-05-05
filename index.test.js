@@ -13,6 +13,13 @@ describe("ArhaScript-component", () => {
     expect(component).toMatchSnapshot()
   })
 
+  it("renders with fallback element if no children-prop is passed in", () => {
+    const component = render(<ArhaScript />)
+    expect(component.toString()).toEqual(
+      '<noscript id="arha-script"></noscript>'
+    )
+  })
+
   it("renders scripts passed in as a string", () => {
     const component = mount(
       <ArhaScript>{`<script>console.log('hai')</script>`}</ArhaScript>
